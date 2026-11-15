@@ -19,3 +19,6 @@ UnrealKey/
 *.zip
 *.exe
 Thumbs.db
+
+uasset_read/
+decompiled/
