@@ -1,0 +1,21 @@
+﻿# Bulk cooked assets - too large for GitHub
+Extracted/**/*.uasset
+Extracted/**/*.uexp
+Extracted/**/*.ubulk
+Extracted/**/*.umap
+Extracted/**/*.pak
+Extracted/**/*.sig
+
+# Keep small text-like files
+!Extracted/**/*.ini
+!Extracted/**/*.json
+!Extracted/**/*.txt
+
+# Tools and working dirs
+repak/
+FModel/
+UEAESKeyFinder/
+UnrealKey/
+*.zip
+*.exe
+Thumbs.db
